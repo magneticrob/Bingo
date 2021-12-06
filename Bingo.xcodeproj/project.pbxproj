@@ -16,6 +16,9 @@
 		F89E3A17275BB85E00C66C81 /* BingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E3A16275BB85E00C66C81 /* BingoTests.swift */; };
 		F89E3A21275BB85E00C66C81 /* BingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E3A20275BB85E00C66C81 /* BingoUITests.swift */; };
 		F89E3A23275BB85E00C66C81 /* BingoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E3A22275BB85E00C66C81 /* BingoUITestsLaunchTests.swift */; };
+		F89E3A31275BB87600C66C81 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E3A30275BB87600C66C81 /* Board.swift */; };
+		F89E3A33275BB8AE00C66C81 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E3A32275BB8AE00C66C81 /* Game.swift */; };
+		F89E3A35275BCDAF00C66C81 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E3A34275BCDAF00C66C81 /* Input.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		F89E3A1C275BB85E00C66C81 /* BingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89E3A20275BB85E00C66C81 /* BingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoUITests.swift; sourceTree = "<group>"; };
 		F89E3A22275BB85E00C66C81 /* BingoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F89E3A30275BB87600C66C81 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		F89E3A32275BB8AE00C66C81 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F89E3A34275BCDAF00C66C81 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		F89E39FE275BB85D00C66C81 /* Bingo */ = {
 			isa = PBXGroup;
 			children = (
+				F89E3A2F275BB86A00C66C81 /* Engine */,
 				F89E39FF275BB85D00C66C81 /* AppDelegate.swift */,
 				F89E3A01275BB85D00C66C81 /* SceneDelegate.swift */,
 				F89E3A03275BB85D00C66C81 /* ViewController.swift */,
@@ -125,6 +132,16 @@
 				F89E3A22275BB85E00C66C81 /* BingoUITestsLaunchTests.swift */,
 			);
 			path = BingoUITests;
+			sourceTree = "<group>";
+		};
+		F89E3A2F275BB86A00C66C81 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				F89E3A30275BB87600C66C81 /* Board.swift */,
+				F89E3A32275BB8AE00C66C81 /* Game.swift */,
+				F89E3A34275BCDAF00C66C81 /* Input.swift */,
+			);
+			path = Engine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F89E3A35275BCDAF00C66C81 /* Input.swift in Sources */,
 				F89E3A04275BB85D00C66C81 /* ViewController.swift in Sources */,
+				F89E3A33275BB8AE00C66C81 /* Game.swift in Sources */,
 				F89E3A00275BB85D00C66C81 /* AppDelegate.swift in Sources */,
+				F89E3A31275BB87600C66C81 /* Board.swift in Sources */,
 				F89E3A02275BB85D00C66C81 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
